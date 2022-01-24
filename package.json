@@ -1,0 +1,15 @@
+{
+  "name": "lokibot-code",
+  "version": "1.0.0",
+  "description": "A Discord Bot that outputs random cat pictures which users can collect and trade.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GrifoEXE",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.2.0"
+  }
+}
