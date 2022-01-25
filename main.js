@@ -56,6 +56,11 @@ client.on('messageCreate', (message) => {
         client.commands.get('loki').execute(message, args, Discord);
     }
 
+    else if (command === 'loki')
+    {
+        client.commands.get('loki').execute(message, args, Discord);
+    }
+
 })
 
 
@@ -70,7 +75,7 @@ client.on('messageCreate', (message) => {
             })
         }
     
-        else if (message.content === 'cu'){
+        else if (message.content === 'cu' || message.content === 'Cu' || message.content === 'cU' || message.content === 'CU'){
             message.reply({
                 content: 'cu',
             })
